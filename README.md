@@ -12,13 +12,13 @@
 
 ## Features
 
-⚡️  Simple but highly perfection API
-🐣 Tiny footprint (< 800b)
-👓 Customize
-🎃 3 types of bundles exposed: ESM, CJS and UMD
-🔥 TypeScript Typings readily available
-🎸 Browser and NodeJs supported
-🎯 End-to-end testing with GitHub Action
+⚡️  Simple but highly perfection API  
+🐣 Tiny footprint (< 800b)  
+👓 Customize  
+🎃 3 types of bundles exposed: ESM, CJS and UMD  
+🔥 TypeScript Typings readily available  
+🎸 Browser and NodeJs supported  
+🎯 End-to-end testing with GitHub Action  
 
 
 ## Install
