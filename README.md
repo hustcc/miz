@@ -34,12 +34,12 @@ $ npm i --save miz
 import { M } from 'miz'; // ES6
 
 const m = M.arrayOf(M.shape({
-  id: M.number(10000, 1000000),     // id is between 10000 ~ 1000000.
-  name: M.string(6),                // 6 length random string.
-  sex: M.bool(),                    // random true or false.
-  city: 'hz',                        // constant value.
-  work: M.oneOf(['QA', 'FED'])      // random from array
-}), 2);                              // list length is 2.
+  id: M.number(10000, 1000000),     	// id is between 10000 ~ 1000000.
+  name: M.string(6),                	// 6 length random string.
+  sex: M.bool(),                    	// random true or false.
+  city: M.constant('hz'),          	 	// constant value.
+  work: M.oneOf(['QA', 'FED'])      	// random from array
+}), 2);                               // list length is 2.
 
 m.mock();
 ```
