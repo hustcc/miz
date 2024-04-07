@@ -102,7 +102,7 @@ M.oneOf(['hustcc', 'imcxl']).mock(); // hustcc
 
 ```ts
 // got an array which contains string, and array length 10 ~ 20.
-M.arrayOf(VT.string(4), 10, 20);.mock(); 
+M.arrayOf(VT.string(4), 10, 20).mock(); 
 ```
 
  - **M.shape(mockerObject)**
